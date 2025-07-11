@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports & Shoes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <div class="logo-titulo">
+    <img src="fondo_logo/fondo6.png" alt="Logo Sports & Shoes" class="logo" />
+    <h1 class="titulo-pagina">Tienda <span class="marca">Sports & Shoes</span></h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- Video fondo-->
+ <section id ="inicio">
+  <section class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="video/zapatillas-fondo.mp4.mp4" type="video/mp4" />
+    Tu navegador no soporta video.
+  </video>
+  <div class="hero-overlay">
+    <h2>Explorá tu estilo urbano</h2>
+    <p>Zapatillas únicas para un ritmo de vida moderno</p>
+    <a href="#productos" class="btn-cta">Ver productos</a>
+  </div>
+</section>
+</section>
+
+
+  <!-- Video -->
+  <section id="video" style="text-align:center">
+    <h2><i class="fas fa-video"></i> Video Promocional</h2>
+    <iframe src="https://www.youtube.com/embed/n6tPURCF4EE?si=u-hu6NL9LUDX_dia"  frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos">
+    <h2><i class="fas fa-store"></i>Catalogo de Productos</h2>
+    <div class="productos-container"></div>
+  </section>
+
+  <!-- Reseñas -->
+  <section id="reseñas" class="reviews">
+    <h2><i class="fas fa-star"></i> Reseñas</h2>
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/men/31.jpg" class="avatar">
+      <div class="review-content">
+        <h3>Carlos</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Muy buena calidad de productos y excelente atención."</p>
+      </div>
+    </div>
+    
+       <div class="review">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" class="avatar">
+      <div class="review-content">
+        <h3>Tomas</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Muy buen producto, aunque la caja llegó un poco dañada."</p>
+      </div>
+  </section>
+
+<!--   Contacto -->
+  <section id="contacto" class="contacto">
+      <section class="contact-section">
+        <h2>Contáctanos</h2>
+        <form action="https://formspree.io/f/xkgbavgd" method="POST" class="contact-form">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </section> 
+
+  <!-- Carrito lateral -->
+  <aside class="carrito-lateral">
+    <ul id="lista-carrito"></ul>
+    <p id="total-carrito">Total: $0</p>
+    <button id="vaciar-carrito">Vaciar carrito</button>
+  </aside>
+
+  <!-- Botón flotante carrito -->
+  <button id="toggle-carrito">
+    🛒
+    <span id="carrito-contador">0</span>
+  </button>
+
+   <footer class="footer">
+    <div class="redes-sociales">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <img src="imagen/redes_sociales/facebook.png" alt="Facebook" />
+      </a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <img src="imagen/redes_sociales/twitter.png" alt="Twitter" />
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <img src="imagen/redes_sociales/instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+        <img src="imagen/redes_sociales/linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+    <p class="copyright">© 2025 Tienda Sports & Shoes. Todos los derechos reservados.</p>
+  </footer>
+</body>
+ <script defer src="scrip.js"></script>
+</html>

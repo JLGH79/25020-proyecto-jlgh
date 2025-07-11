@@ -1,0 +1,50 @@
+[
+  {
+    "id": "zapa1",
+    "nombre": "Zapatillas Casuales",
+    "precio": 55000,
+    "imagen": "imagen/productos/zapa.jpg"
+  },
+  {
+    "id": "zapa2",
+    "nombre": "Zapatillas Caballero",
+    "precio": 50000,
+    "imagen": "imagen/productos/zapa1.jpg"
+  },
+  {
+    "id": "zapa3",
+    "nombre": "Zapatillas Tacon Dama",
+    "precio": 45000,
+    "imagen": "imagen/productos/zapa2.jpg"
+  },
+  {
+    "id": "zapa4",
+    "nombre": "Zapatillas Caballero 2",
+    "precio": 50000,
+    "imagen": "imagen/productos/zapa3.jpg"
+  },
+  {
+    "id": "zapa5",
+    "nombre": "Zapatillas",
+    "precio": 60000,
+    "imagen": "imagen/productos/zapa5.jpg"
+  },
+  {
+    "id": "zapa6",
+    "nombre": "Zapatillas Dama",
+    "precio": 50000,
+    "imagen": "imagen/productos/zapa6.jpg"
+  },
+  {
+    "id": "zapa7",
+    "nombre": "Zapatillas Niño",
+    "precio": 50000,
+    "imagen": "imagen/productos/zapa7.jpg"
+  },
+  {
+    "id": "zapa8",
+    "nombre": "Zapatillas Urbanas",
+    "precio": 50000,
+    "imagen": "imagen/productos/zapa8.jpg"
+  }
+]
